@@ -1,4 +1,3 @@
-import React from "react";
 import useCalculator from "../hooks/useCalculator.ts";
 
 export default function Calculator({}: {}) {

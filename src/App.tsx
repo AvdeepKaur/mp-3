@@ -1,16 +1,16 @@
 import "./App.css";
 import "./styles/styles.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "../../mp-3/src/components/Header";
-import Nav from "../../mp-3/src/components/Nav";
-import Footer from "../../mp-3/src/components/Footer";
-import Home from "../../mp-3/src/pages/Home";
-import Projects from "../../mp-3/src/pages/Projects";
-import Education from "../../mp-3/src/pages/Education";
-import Work from "../../mp-3/src/pages/Work";
-import UIUX from "../../mp-3/src/pages/UIUX";
-import Contact from "../../mp-3/src/pages/Contact";
-import Calculator from "../../mp-3/src/pages/Calculator";
+import Header from "./components/Header";
+import Nav from "./components/Nav";
+import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
+import Education from "./pages/Education";
+import Work from "./pages/Work";
+import UIUX from "./pages/UIUX";
+import Contact from "./pages/Contact";
+import Calculator from "./pages/Calculator";
 
 export default function App() {
   return (
